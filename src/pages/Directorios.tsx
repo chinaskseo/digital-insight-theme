@@ -4,6 +4,14 @@ import Footer from "@/components/Footer";
 import DirectoryCard from "@/components/DirectoryCard";
 import { Search, Filter, Grid, List, Star, Zap } from "lucide-react";
 
+// Directory images
+import chatgptImg from "@/assets/chatgpt-directory.jpg";
+import midjourneyImg from "@/assets/midjourney-directory.jpg";
+import claudeImg from "@/assets/claude-directory.jpg";
+import copilotImg from "@/assets/copilot-directory.jpg";
+import notionImg from "@/assets/notion-directory.jpg";
+import canvaImg from "@/assets/canva-directory.jpg";
+
 const Directorios = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Todas");
@@ -31,6 +39,7 @@ const Directorios = () => {
       rating: 4.8,
       reviewCount: 1250,
       isPremium: true,
+      imageUrl: chatgptImg,
       tags: ["GPT-4", "Conversación", "Escritura", "Código", "Análisis"],
       dateAdded: "Nov 2024",
       externalUrl: "https://chat.openai.com"
@@ -43,6 +52,7 @@ const Directorios = () => {
       rating: 4.7,
       reviewCount: 890,
       isPremium: true,
+      imageUrl: midjourneyImg,
       tags: ["Arte", "Diseño", "Creatividad", "Discord", "V6"],
       dateAdded: "Oct 2024",
       externalUrl: "https://midjourney.com"
@@ -55,6 +65,7 @@ const Directorios = () => {
       rating: 4.6,
       reviewCount: 567,
       isPremium: false,
+      imageUrl: claudeImg,
       tags: ["Análisis", "Seguro", "Programación", "Investigación", "Sonnet"],
       dateAdded: "Dic 2024",
       externalUrl: "https://claude.ai"
@@ -67,6 +78,7 @@ const Directorios = () => {
       rating: 4.5,
       reviewCount: 423,
       isPremium: true,
+      imageUrl: copilotImg,
       tags: ["Código", "GitHub", "VS Code", "Autocompletado", "Desarrollo"],
       dateAdded: "Sep 2024",
       externalUrl: "https://github.com/features/copilot"
@@ -79,6 +91,7 @@ const Directorios = () => {
       rating: 4.4,
       reviewCount: 678,
       isPremium: true,
+      imageUrl: notionImg,
       tags: ["Productividad", "Documentos", "Organización", "Colaboración", "Plantillas"],
       dateAdded: "Ago 2024",
       externalUrl: "https://notion.so"
@@ -91,6 +104,7 @@ const Directorios = () => {
       rating: 4.3,
       reviewCount: 892,
       isPremium: false,
+      imageUrl: canvaImg,
       tags: ["Diseño", "Plantillas", "Visual", "Presentaciones", "Marketing"],
       dateAdded: "Jul 2024",
       externalUrl: "https://canva.com"
