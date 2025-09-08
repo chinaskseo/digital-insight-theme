@@ -6,6 +6,14 @@ import BlogCard from "@/components/BlogCard";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+// Blog post images
+import coreWebVitalsImg from "@/assets/blog-core-web-vitals.jpg";
+import aiMarketingToolsImg from "@/assets/blog-ai-marketing-tools.jpg";
+import uxUiTrendsImg from "@/assets/blog-ux-ui-trends.jpg";
+import localSeoImg from "@/assets/blog-local-seo.jpg";
+import wordpressHeadlessImg from "@/assets/blog-wordpress-headless.jpg";
+import aiSeoImg from "@/assets/blog-ai-seo.jpg";
+
 const Blog = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Todas");
@@ -19,7 +27,7 @@ const Blog = () => {
       publishDate: "15 Mar 2024",
       readTime: 8,
       category: "SEO Técnico",
-      imageUrl: "/api/placeholder/600/300",
+      imageUrl: coreWebVitalsImg,
       featured: true
     },
     {
@@ -30,7 +38,7 @@ const Blog = () => {
       publishDate: "12 Mar 2024",
       readTime: 6,
       category: "IA & Marketing",
-      imageUrl: "/api/placeholder/400/200"
+      imageUrl: aiMarketingToolsImg
     },
     {
       id: "3",
@@ -40,7 +48,7 @@ const Blog = () => {
       publishDate: "10 Mar 2024",
       readTime: 5,
       category: "Diseño Web",
-      imageUrl: "/api/placeholder/400/200"
+      imageUrl: uxUiTrendsImg
     },
     {
       id: "4",
@@ -50,7 +58,7 @@ const Blog = () => {
       publishDate: "8 Mar 2024",
       readTime: 7,
       category: "SEO Local",
-      imageUrl: "/api/placeholder/400/200"
+      imageUrl: localSeoImg
     },
     {
       id: "5",
@@ -60,7 +68,7 @@ const Blog = () => {
       publishDate: "5 Mar 2024",
       readTime: 9,
       category: "Desarrollo Web",
-      imageUrl: "/api/placeholder/400/200"
+      imageUrl: wordpressHeadlessImg
     },
     {
       id: "6",
@@ -70,7 +78,7 @@ const Blog = () => {
       publishDate: "3 Mar 2024",
       readTime: 6,
       category: "IA & Marketing",
-      imageUrl: "/api/placeholder/400/200"
+      imageUrl: aiSeoImg
     }
   ];
 

@@ -4,6 +4,14 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+// Blog post images
+import coreWebVitalsImg from "@/assets/blog-core-web-vitals.jpg";
+import aiMarketingToolsImg from "@/assets/blog-ai-marketing-tools.jpg";
+import uxUiTrendsImg from "@/assets/blog-ux-ui-trends.jpg";
+import localSeoImg from "@/assets/blog-local-seo.jpg";
+import wordpressHeadlessImg from "@/assets/blog-wordpress-headless.jpg";
+import aiSeoImg from "@/assets/blog-ai-seo.jpg";
+
 const BlogPost = () => {
   const { id } = useParams();
 
@@ -17,7 +25,7 @@ const BlogPost = () => {
       publishDate: "15 Mar 2024",
       readTime: 8,
       category: "SEO Técnico",
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: coreWebVitalsImg,
       featured: true,
       content: `
         <p>Los Core Web Vitals se han convertido en un factor de ranking crucial para Google. Estas métricas miden la experiencia del usuario real en tu sitio web y pueden impactar significativamente tu posicionamiento en los resultados de búsqueda.</p>
@@ -80,7 +88,7 @@ const BlogPost = () => {
       publishDate: "12 Mar 2024",
       readTime: 6,
       category: "IA & Marketing",
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: aiMarketingToolsImg,
       content: `
         <p>La inteligencia artificial está revolucionando la forma en que creamos y gestionamos contenido. Estas herramientas pueden ayudarte a automatizar procesos, mejorar la calidad y aumentar la productividad de tu equipo de marketing.</p>
 
@@ -141,7 +149,7 @@ const BlogPost = () => {
       publishDate: "10 Mar 2024",
       readTime: 5,
       category: "Diseño Web",
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: uxUiTrendsImg,
       content: `
         <p>El diseño UX/UI evoluciona constantemente, y 2024 ha traído nuevas tendencias que están redefiniendo cómo los usuarios interactúan con las interfaces digitales. Estas tendencias no solo mejoran la estética, sino que también optimizan la experiencia del usuario.</p>
 
@@ -202,7 +210,7 @@ const BlogPost = () => {
       publishDate: "8 Mar 2024",
       readTime: 7,
       category: "SEO Local",
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: localSeoImg,
       content: `
         <p>El SEO local es fundamental para cualquier negocio que atiende a clientes en ubicaciones específicas. Con las estrategias correctas, puedes dominar los resultados de búsqueda en tu área geográfica y atraer más clientes locales.</p>
 
@@ -318,7 +326,7 @@ const BlogPost = () => {
       publishDate: "5 Mar 2024",
       readTime: 9,
       category: "Desarrollo Web",
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: wordpressHeadlessImg,
       content: `
         <p>La elección entre WordPress tradicional y un CMS headless es una de las decisiones más importantes que enfrentan los desarrolladores y propietarios de sitios web en 2024. Cada opción tiene sus ventajas y desventajas específicas.</p>
 
@@ -447,7 +455,7 @@ const BlogPost = () => {
       publishDate: "3 Mar 2024",
       readTime: 6,
       category: "IA & Marketing",
-      imageUrl: "/api/placeholder/800/400",
+      imageUrl: aiSeoImg,
       content: `
         <p>La inteligencia artificial está revolucionando el SEO de maneras que parecían impensables hace solo unos años. Desde algoritmos de búsqueda más sofisticados hasta herramientas de automatización avanzadas, la IA está redefiniendo cómo abordamos el posicionamiento web.</p>
 
