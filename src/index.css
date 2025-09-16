@@ -192,6 +192,19 @@ All colors MUST be HSL. Modern palette with dark blue, light blue, and orange/li
     background: var(--gradient-hero);
   }
 
+  /* Background Gradients */
+  .bg-gradient-secondary {
+    background: var(--gradient-secondary);
+  }
+
+  .bg-gradient-accent {
+    background: var(--gradient-accent);
+  }
+
+  .bg-gradient-success {
+    background: var(--gradient-success);
+  }
+
   /* Text Animations */
   .text-gradient {
     background: var(--gradient-accent);
